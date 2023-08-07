@@ -1,0 +1,2328 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"34 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"53
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"67 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[e E13076 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E13094 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"19 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[e E454 . `uc
+TCS3471_GAIN_1X 0
+TCS3471_GAIN_4X 1
+TCS3471_GAIN_16X 2
+TCS3471_GAIN_60X 3
+]
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+[v i2_pad pad `(i  1 s 2 i2_pad ]
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+[v i2_xtoa xtoa `(i  1 s 2 i2_xtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+[v i2_vfpfcnvrt vfpfcnvrt `(i  1 s 2 i2_vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+[v i2_vfprintf vfprintf `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+[v i2_isalpha isalpha `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/islower.c
+[v _islower islower `(i  1 e 2 0 ]
+[v i2_islower islower `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+[v i2_isupper isupper `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+[v i2_fputc fputc `(i  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+[v i2_fputs fputs `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+[v i2_printf printf `(i  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+[v i2_toupper toupper `(i  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"51 /Users/amor-mac/Documents/3_1/project/all-in-one.X/main.c
+[v _combine_low_eight_bits combine_low_eight_bits `(ul  1 e 4 0 ]
+"61
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"91
+[v _FillScreen FillScreen `(v  1 e 1 0 ]
+"102
+[v _main main `(v  1 e 1 0 ]
+"38 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+"49
+[v _DELAY_microseconds DELAY_microseconds `(v  1 e 1 0 ]
+"34 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler ]
+"71
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+[v i2_i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler ]
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler ]
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler ]
+"185
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler ]
+"228
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+[v i2_i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+"66 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+[v i2_EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+[v i2_putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART2_DefaultFramingErrorHandler EUSART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART2_DefaultOverrunErrorHandler EUSART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART2_DefaultErrorHandler EUSART2_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+"142 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+[v i2_rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler@i2c1_master_example$F145 ]
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+[v i2_rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler@i2c1_master_example$F156 ]
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+[v i2_wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler@i2c1_master_example$F162 ]
+"163
+[v _wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+[v i2_wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler@i2c1_master_example$F168 ]
+"170
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+[v i2_rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler@i2c1_master_example$F179 ]
+"32 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+"41
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"50
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"54
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"59
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"167 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+[v i2_I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+[v i2_I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+[v i2_I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+[v i2_I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+[v i2_I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+[v i2_I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+[v i2_I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+[v i2_I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+[v i2_I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 i2_I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+[v i2_I2C1_Poller I2C1_Poller `(v  1 s 1 i2_I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+[v i2_I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 i2_I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13076  1 s 1 I2C1_DO_IDLE ]
+[v i2_I2C1_DO_IDLE I2C1_DO_IDLE `(E13076  1 s 1 i2_I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13076  1 s 1 I2C1_DO_SEND_ADR_READ ]
+[v i2_I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13076  1 s 1 i2_I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13076  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+[v i2_I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13076  1 s 1 i2_I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E13076  1 s 1 I2C1_DO_TX ]
+[v i2_I2C1_DO_TX I2C1_DO_TX `(E13076  1 s 1 i2_I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E13076  1 s 1 I2C1_DO_RX ]
+[v i2_I2C1_DO_RX I2C1_DO_RX `(E13076  1 s 1 i2_I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E13076  1 s 1 I2C1_DO_RCEN ]
+[v i2_I2C1_DO_RCEN I2C1_DO_RCEN `(E13076  1 s 1 i2_I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13076  1 s 1 I2C1_DO_TX_EMPTY ]
+[v i2_I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13076  1 s 1 i2_I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13076  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+[v i2_I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13076  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+[v i2_I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13076  1 s 1 I2C1_DO_SEND_RESTART ]
+[v i2_I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13076  1 s 1 I2C1_DO_SEND_STOP ]
+[v i2_I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13076  1 s 1 i2_I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13076  1 s 1 I2C1_DO_RX_ACK ]
+[v i2_I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13076  1 s 1 i2_I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13076  1 s 1 I2C1_DO_RX_NACK_STOP ]
+[v i2_I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13076  1 s 1 i2_I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13076  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+[v i2_I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13076  1 s 1 i2_I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13076  1 s 1 I2C1_DO_RESET ]
+[v i2_I2C1_DO_RESET I2C1_DO_RESET `(E13076  1 s 1 i2_I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13076  1 s 1 I2C1_DO_ADDRESS_NACK ]
+[v i2_I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13076  1 s 1 i2_I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+[v i2_I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+[v i2_I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+[v i2_I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 i2_I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+[v i2_I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 i2_I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+[v i2_I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 i2_I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+[v i2_I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 i2_I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+[v i2_I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 i2_I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+[v i2_I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 i2_I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+[v i2_I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 i2_I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+[v i2_I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 i2_I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+[v i2_I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 i2_I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+[v i2_I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 i2_I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+[v i2_I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 i2_I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+[v i2_I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 i2_I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+[v i2_I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 i2_I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+[v i2_I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 i2_I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+[v i2_I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 i2_I2C1_MasterWaitForEvent ]
+"52 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"50 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"15 /Users/amor-mac/Documents/3_1/project/all-in-one.X/RGB4x4Click.c
+[v _reverse reverse `(uc  1 e 1 0 ]
+[v i2_reverse reverse `(uc  1 e 1 0 ]
+"22
+[v _RGBLed_SetDiode RGBLed_SetDiode `(v  1 e 1 0 ]
+[v i2_RGBLed_SetDiode RGBLed_SetDiode `(v  1 e 1 0 ]
+"33
+[v _RGBLed_InitDiode RGBLed_InitDiode `(v  1 e 1 0 ]
+[v i2_RGBLed_InitDiode RGBLed_InitDiode `(v  1 e 1 0 ]
+"39
+[v _RGBLed_SetColor RGBLed_SetColor `(v  1 e 1 0 ]
+[v i2_RGBLed_SetColor RGBLed_SetColor `(v  1 e 1 0 ]
+"189
+[v _RGBLed_ResetDelay RGBLed_ResetDelay `(v  1 e 1 0 ]
+[v i2_RGBLed_ResetDelay RGBLed_ResetDelay `(v  1 e 1 0 ]
+"5 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v __i2cWrite _i2cWrite `(v  1 e 1 0 ]
+[v i2__i2cWrite _i2cWrite `(v  1 e 1 0 ]
+"8
+[v __i2cRead _i2cRead `(v  1 e 1 0 ]
+[v i2__i2cRead _i2cRead `(v  1 e 1 0 ]
+"12
+[v _TCS3471_Init TCS3471_Init `(v  1 e 1 0 ]
+"33
+[v _TCS3471_Detect TCS3471_Detect `(a  1 e 1 0 ]
+"62
+[v _TCS3471_Enable TCS3471_Enable `(a  1 e 1 0 ]
+"84
+[v _TCS3471_SetIntegrationTime TCS3471_SetIntegrationTime `(v  1 e 1 0 ]
+"97
+[v _TCS3471_SetWaitTime TCS3471_SetWaitTime `(v  1 e 1 0 ]
+"125
+[v _TCS3471_SetGain TCS3471_SetGain `(v  1 e 1 0 ]
+"133
+[v _TCS3471_EnableInterrupt TCS3471_EnableInterrupt `(v  1 e 1 0 ]
+"149
+[v _TCS3471_ClearInterrupt TCS3471_ClearInterrupt `(v  1 e 1 0 ]
+[v i2_TCS3471_ClearInterrupt TCS3471_ClearInterrupt `(v  1 e 1 0 ]
+"158
+[v _TCS3471_InterruptHighThreshold TCS3471_InterruptHighThreshold `(v  1 e 1 0 ]
+"166
+[v _TCS3471_InterruptLowThreshold TCS3471_InterruptLowThreshold `(v  1 e 1 0 ]
+"174
+[v _TCS3471_InterruptPersistence TCS3471_InterruptPersistence `(v  1 e 1 0 ]
+"198
+[v _TCS3471_RgbcValid TCS3471_RgbcValid `(a  1 e 1 0 ]
+"208
+[v _TCS3471_ReadCData TCS3471_ReadCData `(us  1 e 2 0 ]
+"217
+[v _TCS3471_ReadRData TCS3471_ReadRData `(us  1 e 2 0 ]
+"226
+[v _TCS3471_ReadGData TCS3471_ReadGData `(us  1 e 2 0 ]
+"235
+[v _TCS3471_ReadBData TCS3471_ReadBData `(us  1 e 2 0 ]
+"244
+[v _write8 write8 `(v  1 e 1 0 ]
+"251
+[v _write16 write16 `(v  1 e 1 0 ]
+"259
+[v _read8 read8 `(uc  1 e 1 0 ]
+[v i2_read8 read8 `(uc  1 e 1 0 ]
+"267
+[v _read16 read16 `(us  1 e 2 0 ]
+"55 /Users/amor-mac/Documents/3_1/project/all-in-one.X/RGB4x4Click.h
+[v _DiodeArray DiodeArray `[16]ul  1 e 64 0 ]
+"85 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.h
+[v __i2cBuffer _i2cBuffer `[3]uc  1 e 3 0 ]
+"86
+[v __detected _detected `i  1 e 2 0 ]
+"87
+[v __i2cAddress _i2cAddress `uc  1 e 1 0 ]
+"9890 /Applications/microchip/mplabx/v6.05/packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8/pic/include/proc/pic18f47q10.h
+[v _RX2PPS RX2PPS `VEuc  1 e 1 @3720 ]
+"11443
+[v _RC2REG RC2REG `VEuc  1 e 1 @3732 ]
+"11481
+[v _TX2REG TX2REG `VEuc  1 e 1 @3733 ]
+"11526
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @3734 ]
+"11564
+[v _SP2BRGH SP2BRGH `VEuc  1 e 1 @3735 ]
+"11602
+[v _RC2STA RC2STA `VEuc  1 e 1 @3736 ]
+[s S417 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"11624
+[u S426 . 1 `S417 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES426  1 e 1 @3736 ]
+"11724
+[v _TX2STA TX2STA `VEuc  1 e 1 @3737 ]
+[s S396 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"11746
+[u S405 . 1 `S396 1 . 1 0 ]
+[v _TX2STAbits TX2STAbits `VES405  1 e 1 @3737 ]
+"11846
+[v _BAUD2CON BAUD2CON `VEuc  1 e 1 @3738 ]
+"12016
+[v _INT0PPS INT0PPS `VEuc  1 e 1 @3740 ]
+"14168
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3762 ]
+"14378
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3763 ]
+[s S1484 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"15230
+[u S1491 . 1 `S1484 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1491  1 e 1 @3773 ]
+[s S1161 . 1 `uc 1 SSPIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"15362
+[s S1170 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S1176 . 1 `S1161 1 . 1 0 `S1170 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1176  1 e 1 @3776 ]
+[s S1423 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"15647
+[u S1430 . 1 `S1423 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1430  1 e 1 @3781 ]
+[s S362 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15779
+[s S371 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S377 . 1 `S362 1 . 1 0 `S371 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES377  1 e 1 @3784 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"17199
+[v _PMD0 PMD0 `VEuc  1 e 1 @3804 ]
+"17276
+[v _PMD1 PMD1 `VEuc  1 e 1 @3805 ]
+"17340
+[v _PMD2 PMD2 `VEuc  1 e 1 @3806 ]
+"17385
+[v _PMD3 PMD3 `VEuc  1 e 1 @3807 ]
+"17447
+[v _PMD4 PMD4 `VEuc  1 e 1 @3808 ]
+"17500
+[v _PMD5 PMD5 `VEuc  1 e 1 @3809 ]
+"17941
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3819 ]
+"17985
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @3820 ]
+"18601
+[v _RD0PPS RD0PPS `VEuc  1 e 1 @3834 ]
+"19271
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19333
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19395
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19457
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19767
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19829
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19891
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19953
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20015
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20263
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20325
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20387
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20449
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20511
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20573
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20635
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20697
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20759
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20821
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20946
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20984
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21016
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21048
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21086
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"27484
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+[s S1835 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"27501
+[u S1844 . 1 `S1835 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1844  1 e 1 @3970 ]
+"27546
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"27608
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"27670
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+"27732
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+"27764
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"27886
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"28008
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28130
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+"28252
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+"28600
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3985 ]
+"28620
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3986 ]
+"28810
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3988 ]
+[s S900 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"28959
+[s S903 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S906 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S915 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S920 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S925 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S928 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S931 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S936 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S941 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S947 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S956 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S962 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S968 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S974 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S979 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A1 1 0 :1:5 
+]
+[s S982 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S987 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W1 1 0 :1:2 
+]
+[s S990 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S995 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S998 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S1001 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S1006 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE1 1 0 :1:2 
+]
+[s S1009 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS1 1 0 :1:5 
+]
+[s S1012 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S1017 . 1 `S900 1 . 1 0 `S903 1 . 1 0 `S906 1 . 1 0 `S915 1 . 1 0 `S920 1 . 1 0 `S925 1 . 1 0 `S928 1 . 1 0 `S931 1 . 1 0 `S936 1 . 1 0 `S941 1 . 1 0 `S947 1 . 1 0 `S956 1 . 1 0 `S962 1 . 1 0 `S968 1 . 1 0 `S974 1 . 1 0 `S979 1 . 1 0 `S982 1 . 1 0 `S987 1 . 1 0 `S990 1 . 1 0 `S995 1 . 1 0 `S998 1 . 1 0 `S1001 1 . 1 0 `S1006 1 . 1 0 `S1009 1 . 1 0 `S1012 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES1017  1 e 1 @3988 ]
+"29264
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3989 ]
+[s S620 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"29294
+[s S626 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S631 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S640 . 1 `S620 1 . 1 0 `S626 1 . 1 0 `S631 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES640  1 e 1 @3989 ]
+"29384
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @3990 ]
+[s S804 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"29431
+[s S813 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S816 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S823 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S832 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S839 . 1 `S804 1 . 1 0 `S813 1 . 1 0 `S816 1 . 1 0 `S823 1 . 1 0 `S832 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES839  1 e 1 @3990 ]
+[s S1447 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"37529
+[s S1455 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"37529
+[s S1459 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"37529
+[u S1463 . 1 `S1447 1 . 1 0 `S1455 1 . 1 0 `S1459 1 . 1 0 ]
+"37529
+"37529
+[v _INTCONbits INTCONbits `VES1463  1 e 1 @4082 ]
+"55 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S316 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/eusart2.c
+[u S321 . 1 `S316 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart2RxLastError eusart2RxLastError `VES321  1 e 1 0 ]
+"58
+[v _EUSART2_FramingErrorHandler EUSART2_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART2_OverrunErrorHandler EUSART2_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART2_ErrorHandler EUSART2_ErrorHandler `*.38(v  1 e 3 0 ]
+"30 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/ext_int.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"146 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[16]*.38(E13076  1 e 48 0 ]
+[s S594 . 42 `[6]*.38(E360 1 callbackTable 18 0 `[6]*.39v 1 callbackPayload 12 18 `us 1 time_out 2 30 `us 1 time_out_value 2 32 `uc 1 address 1 34 `*.39uc 1 data_ptr 2 35 `ui 1 data_length 2 37 `E13076 1 state 1 39 `E355 1 error 1 40 `uc 1 addressNackCheck 1 41 :1:0 
+`uc 1 busy 1 41 :1:1 
+`uc 1 inUse 1 41 :1:2 
+`uc 1 bufferFree 1 41 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S594  1 e 42 0 ]
+"102 /Users/amor-mac/Documents/3_1/project/all-in-one.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"140
+[v main@z z `i  1 a 2 23 ]
+"149
+} 0
+"12 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_Init TCS3471_Init `(v  1 e 1 0 ]
+{
+"31
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 19 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 15 ]
+"13
+} 0
+"1390 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 102 ]
+[s S2344 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.2S2344  1 p 2 9 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 11 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 13 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"697
+[v vfpfcnvrt@llu llu `uo  1 a 8 0 ]
+"694
+[v vfpfcnvrt@c c `uc  1 a 1 8 ]
+[s S2344 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.2S2344  1 p 2 92 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 94 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 96 ]
+"1387
+} 0
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+{
+"648
+[v xtoa@n n `uo  1 a 8 80 ]
+"647
+[v xtoa@c c `i  1 a 2 90 ]
+[v xtoa@i i `i  1 a 2 88 ]
+[v xtoa@w w `i  1 a 2 78 ]
+[v xtoa@p p `i  1 a 2 76 ]
+[s S2344 _IO_FILE 0 ]
+"645
+[v xtoa@fp fp `*.2S2344  1 p 2 57 ]
+[v xtoa@d d `uo  1 p 8 59 ]
+[v xtoa@x x `uc  1 p 1 67 ]
+"687
+} 0
+"4 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+{
+[v toupper@c c `i  1 p 2 34 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/islower.c
+[v _islower islower `(i  1 e 2 0 ]
+{
+[v islower@c c `i  1 p 2 28 ]
+"8
+} 0
+"72 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 55 ]
+[v pad@i i `i  1 a 2 53 ]
+[s S2344 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.2S2344  1 p 2 46 ]
+[v pad@buf buf `*.39uc  1 p 2 48 ]
+[v pad@p p `i  1 p 2 50 ]
+"95
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 30 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 28 ]
+"12
+} 0
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 44 ]
+"10
+[v fputs@c c `uc  1 a 1 43 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 39 ]
+[u S2323 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2326 _IO_FILE 11 `S2323 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.2S2326  1 p 2 41 ]
+"19
+} 0
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 30 ]
+[u S2323 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2326 _IO_FILE 11 `S2323 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.2S2326  1 p 2 32 ]
+"24
+} 0
+"146 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/eusart2.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 29 ]
+"149
+} 0
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 28 ]
+"139
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 28 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+{
+[v isalpha@c c `i  1 p 2 28 ]
+"8
+} 0
+"97 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_SetWaitTime TCS3471_SetWaitTime `(v  1 e 1 0 ]
+{
+"101
+[v TCS3471_SetWaitTime@wTime wTime `l  1 a 4 67 ]
+"97
+[v TCS3471_SetWaitTime@waitTime waitTime `f  1 p 4 63 ]
+"123
+} 0
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 38 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 37 ]
+[v ___aldiv@counter counter `uc  1 a 1 36 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 28 ]
+[v ___aldiv@divisor divisor `l  1 p 4 32 ]
+"41
+} 0
+"84 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_SetIntegrationTime TCS3471_SetIntegrationTime `(v  1 e 1 0 ]
+{
+"88
+[v TCS3471_SetIntegrationTime@aTime aTime `us  1 a 2 67 ]
+"84
+[v TCS3471_SetIntegrationTime@integrationTime integrationTime `f  1 p 4 63 ]
+"95
+} 0
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 33 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 32 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 28 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 30 ]
+"30
+} 0
+"43 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 62 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 61 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 53 ]
+"70
+} 0
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S2184 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2189 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2192 . 4 `l 1 i 4 0 `d 1 f 4 0 `S2184 1 fAsBytes 4 0 `S2189 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2192  1 a 4 47 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 42 ]
+[s S2260 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2263 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2260 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2263  1 a 2 51 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 46 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 41 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 40 ]
+"8
+[v ___flmul@b b `d  1 p 4 28 ]
+[v ___flmul@a a `d  1 p 4 32 ]
+"205
+} 0
+"125 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_SetGain TCS3471_SetGain `(v  1 e 1 0 ]
+{
+[v TCS3471_SetGain@gain gain `E454  1 a 1 wreg ]
+[v TCS3471_SetGain@gain gain `E454  1 a 1 wreg ]
+"127
+[v TCS3471_SetGain@gain gain `E454  1 a 1 58 ]
+"131
+} 0
+"174
+[v _TCS3471_InterruptPersistence TCS3471_InterruptPersistence `(v  1 e 1 0 ]
+{
+[v TCS3471_InterruptPersistence@persistence persistence `uc  1 a 1 wreg ]
+"178
+[v TCS3471_InterruptPersistence@valueToWrite valueToWrite `uc  1 a 1 59 ]
+"174
+[v TCS3471_InterruptPersistence@persistence persistence `uc  1 a 1 wreg ]
+"176
+[v TCS3471_InterruptPersistence@persistence persistence `uc  1 a 1 58 ]
+"185
+} 0
+"7 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 34 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 33 ]
+[v ___awdiv@counter counter `uc  1 a 1 32 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 28 ]
+[v ___awdiv@divisor divisor `i  1 p 2 30 ]
+"41
+} 0
+"166 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_InterruptLowThreshold TCS3471_InterruptLowThreshold `(v  1 e 1 0 ]
+{
+[v TCS3471_InterruptLowThreshold@lowThreshold lowThreshold `us  1 p 2 58 ]
+"172
+} 0
+"158
+[v _TCS3471_InterruptHighThreshold TCS3471_InterruptHighThreshold `(v  1 e 1 0 ]
+{
+[v TCS3471_InterruptHighThreshold@highThreshold highThreshold `us  1 p 2 58 ]
+"164
+} 0
+"251
+[v _write16 write16 `(v  1 e 1 0 ]
+{
+[v write16@reg reg `uc  1 a 1 wreg ]
+[v write16@reg reg `uc  1 a 1 wreg ]
+[v write16@val val `us  1 p 2 55 ]
+"253
+[v write16@reg reg `uc  1 a 1 57 ]
+"257
+} 0
+"133
+[v _TCS3471_EnableInterrupt TCS3471_EnableInterrupt `(v  1 e 1 0 ]
+{
+"139
+} 0
+"62
+[v _TCS3471_Enable TCS3471_Enable `(a  1 e 1 0 ]
+{
+"74
+} 0
+"244
+[v _write8 write8 `(v  1 e 1 0 ]
+{
+[v write8@reg reg `uc  1 a 1 wreg ]
+[v write8@reg reg `uc  1 a 1 wreg ]
+[v write8@val val `uc  1 p 1 56 ]
+"246
+[v write8@reg reg `uc  1 a 1 57 ]
+"249
+} 0
+"33
+[v _TCS3471_Detect TCS3471_Detect `(a  1 e 1 0 ]
+{
+"40
+[v TCS3471_Detect@tmpaddr tmpaddr `uc  1 a 1 56 ]
+"60
+} 0
+"259
+[v _read8 read8 `(uc  1 e 1 0 ]
+{
+[v read8@reg reg `uc  1 a 1 wreg ]
+[v read8@reg reg `uc  1 a 1 wreg ]
+"261
+[v read8@reg reg `uc  1 a 1 55 ]
+"265
+} 0
+"8
+[v __i2cRead _i2cRead `(v  1 e 1 0 ]
+{
+[v __i2cRead@address address `uc  1 a 1 wreg ]
+[v __i2cRead@address address `uc  1 a 1 wreg ]
+[v __i2cRead@data data `*.39v  1 p 2 50 ]
+[v __i2cRead@len len `ui  1 p 2 52 ]
+[v __i2cRead@address address `uc  1 a 1 54 ]
+"10
+} 0
+"228 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+{
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@data data `*.39v  1 p 2 45 ]
+[v i2c_readNBytes@len len `ui  1 p 2 47 ]
+[v i2c_readNBytes@address address `uc  1 a 1 49 ]
+"234
+} 0
+"246 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+{
+"249
+} 0
+"149 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_ClearInterrupt TCS3471_ClearInterrupt `(v  1 e 1 0 ]
+{
+"156
+} 0
+"5
+[v __i2cWrite _i2cWrite `(v  1 e 1 0 ]
+{
+[v __i2cWrite@address address `uc  1 a 1 wreg ]
+[v __i2cWrite@address address `uc  1 a 1 wreg ]
+[v __i2cWrite@data data `*.39v  1 p 2 50 ]
+[v __i2cWrite@len len `ui  1 p 2 52 ]
+[v __i2cWrite@address address `uc  1 a 1 54 ]
+"7
+} 0
+"71 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+{
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@data data `*.39v  1 p 2 45 ]
+[v i2c_writeNBytes@len len `ui  1 p 2 47 ]
+[v i2c_writeNBytes@address address `uc  1 a 1 49 ]
+"78
+} 0
+"283 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.38(E360  1 p 3 34 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 37 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 29 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 28 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 44 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 43 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13076  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13076  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13076  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13076  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13076  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13076  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13076  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13076  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13076  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E13076  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E13076  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E13076  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13076  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13076  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13076  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13076  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 28 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 39 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@i2c1_master_example$F179@ptr ptr `*.39v  1 p 2 39 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@i2c1_master_example$F162@ptr ptr `*.39v  1 p 2 39 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@i2c1_master_example$F156@ptr ptr `*.39v  1 p 2 39 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@i2c1_master_example$F145@ptr ptr `*.39v  1 p 2 39 ]
+"147
+} 0
+"185 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.39v  1 p 2 39 ]
+"190
+} 0
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.39v  1 p 2 39 ]
+"156
+} 0
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.39v  1 p 2 39 ]
+"124
+} 0
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.39v  1 p 2 39 ]
+"86
+} 0
+"34
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.39v  1 p 2 39 ]
+"39
+} 0
+"163 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@i2c1_master_example$F168@ptr ptr `*.39v  1 p 2 39 ]
+"168
+} 0
+"273 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.38(E360  1 p 3 34 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 37 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E13094  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E13094  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.38(E360  1 p 3 28 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 31 ]
+"300
+[v I2C1_SetCallback@idx idx `E13094  1 a 1 33 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 28 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 30 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 28 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"50 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"75
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"55 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"134
+} 0
+"61 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"52 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"167 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"59 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"50
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 28 ]
+"52
+} 0
+"66 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 28 ]
+"172
+} 0
+"166
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 28 ]
+"168
+} 0
+"174
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 28 ]
+"176
+} 0
+"91 /Users/amor-mac/Documents/3_1/project/all-in-one.X/main.c
+[v _FillScreen FillScreen `(v  1 e 1 0 ]
+{
+"92
+[v FillScreen@n n `uc  1 a 1 72 ]
+"91
+[v FillScreen@AColor AColor `ul  1 p 4 68 ]
+"96
+} 0
+"22 /Users/amor-mac/Documents/3_1/project/all-in-one.X/RGB4x4Click.c
+[v _RGBLed_SetDiode RGBLed_SetDiode `(v  1 e 1 0 ]
+{
+[v RGBLed_SetDiode@ANum ANum `uc  1 a 1 wreg ]
+"23
+[v RGBLed_SetDiode@i i `uc  1 a 1 67 ]
+"22
+[v RGBLed_SetDiode@ANum ANum `uc  1 a 1 wreg ]
+[v RGBLed_SetDiode@AColor AColor `ul  1 p 4 56 ]
+[v RGBLed_SetDiode@AdiodeArray AdiodeArray `*.39ul  1 p 2 60 ]
+"24
+[v RGBLed_SetDiode@ANum ANum `uc  1 a 1 66 ]
+"31
+} 0
+"39
+[v _RGBLed_SetColor RGBLed_SetColor `(v  1 e 1 0 ]
+{
+"42
+[v RGBLed_SetColor@tempData tempData `ul  1 a 4 30 ]
+"39
+[v RGBLed_SetColor@AdiodeArray AdiodeArray `*.39ul  1 p 2 28 ]
+"187
+} 0
+"189
+[v _RGBLed_ResetDelay RGBLed_ResetDelay `(v  1 e 1 0 ]
+{
+"192
+} 0
+"33
+[v _RGBLed_InitDiode RGBLed_InitDiode `(v  1 e 1 0 ]
+{
+[v RGBLed_InitDiode@ARGBColor ARGBColor `ul  1 p 4 31 ]
+[v RGBLed_InitDiode@AdiodeArray AdiodeArray `*.39ul  1 p 2 35 ]
+"37
+} 0
+"15
+[v _reverse reverse `(uc  1 e 1 0 ]
+{
+[v reverse@b b `uc  1 a 1 wreg ]
+[v reverse@b b `uc  1 a 1 wreg ]
+[v reverse@b b `uc  1 a 1 30 ]
+"20
+} 0
+"61 /Users/amor-mac/Documents/3_1/project/all-in-one.X/main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"77
+[v INTERRUPT_InterruptManager@re re `ul  1 a 4 16 ]
+"72
+[v INTERRUPT_InterruptManager@blueVal blueVal `us  1 a 2 26 ]
+"71
+[v INTERRUPT_InterruptManager@greenVal greenVal `us  1 a 2 24 ]
+"70
+[v INTERRUPT_InterruptManager@redVal redVal `us  1 a 2 22 ]
+"69
+[v INTERRUPT_InterruptManager@clearVal clearVal `us  1 a 2 20 ]
+"87
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/printf.c
+[v i2_printf printf `(i  1 e 2 0 ]
+{
+"8
+[v i2printf@ap ap `[1]*.39v  1 a 2 91 ]
+"5
+[v i2printf@fmt fmt `*.32Cuc  1 p 2 0 ]
+"13
+} 0
+"1390 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v i2_vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v i2vfprintf@cfmt cfmt `*.32uc  1 a 2 89 ]
+[s S2344 _IO_FILE 0 ]
+"1390
+[v i2vfprintf@fp fp `*.2S2344  1 p 2 83 ]
+[v i2vfprintf@fmt fmt `*.32Cuc  1 p 2 85 ]
+[v i2vfprintf@ap ap `*.39*.39v  1 p 2 87 ]
+"1404
+} 0
+"692
+[v i2_vfpfcnvrt vfpfcnvrt `(i  1 s 2 i2_vfpfcnvrt ]
+{
+"697
+[v i2vfpfcnvrt@llu llu `uo  1 a 8 74 ]
+"694
+[v i2vfpfcnvrt@c c `uc  1 a 1 82 ]
+[s S2344 _IO_FILE 0 ]
+"692
+[v i2vfpfcnvrt@fp fp `*.2S2344  1 p 2 64 ]
+[v i2vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 66 ]
+[v i2vfpfcnvrt@ap ap `*.39*.39v  1 p 2 68 ]
+"1387
+} 0
+"645
+[v i2_xtoa xtoa `(i  1 s 2 i2_xtoa ]
+{
+"648
+[v i2xtoa@n n `uo  1 a 8 52 ]
+"647
+[v i2xtoa@c c `i  1 a 2 62 ]
+[v i2xtoa@i i `i  1 a 2 60 ]
+[v i2xtoa@w w `i  1 a 2 50 ]
+[v i2xtoa@p p `i  1 a 2 48 ]
+[s S2344 _IO_FILE 0 ]
+"645
+[v i2xtoa@fp fp `*.2S2344  1 p 2 29 ]
+[v i2xtoa@d d `uo  1 p 8 31 ]
+[v i2xtoa@x x `uc  1 p 1 39 ]
+"687
+} 0
+"4 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/toupper.c
+[v i2_toupper toupper `(i  1 e 2 0 ]
+{
+[v i2toupper@c c `i  1 p 2 2 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/islower.c
+[v i2_islower islower `(i  1 e 2 0 ]
+{
+[v i2islower@c c `i  1 p 2 0 ]
+"8
+} 0
+"72 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/doprnt.c
+[v i2_pad pad `(i  1 s 2 i2_pad ]
+{
+"74
+[v i2pad@w w `i  1 a 2 27 ]
+[v i2pad@i i `i  1 a 2 25 ]
+[s S2344 _IO_FILE 0 ]
+"72
+[v i2pad@fp fp `*.2S2344  1 p 2 18 ]
+[v i2pad@buf buf `*.39uc  1 p 2 20 ]
+[v i2pad@p p `i  1 p 2 22 ]
+"95
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/strlen.c
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v i2strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v i2strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputs.c
+[v i2_fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v i2fputs@i i `i  1 a 2 16 ]
+"10
+[v i2fputs@c c `uc  1 a 1 15 ]
+"8
+[v i2fputs@s s `*.39Cuc  1 p 2 11 ]
+[u S2323 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2326 _IO_FILE 11 `S2323 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v i2fputs@fp fp `*.2S2326  1 p 2 13 ]
+"19
+} 0
+"8 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/nf_fputc.c
+[v i2_fputc fputc `(i  1 e 2 0 ]
+{
+[v i2fputc@c c `i  1 p 2 2 ]
+[u S2323 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2326 _IO_FILE 11 `S2323 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v i2fputc@fp fp `*.2S2326  1 p 2 4 ]
+"24
+} 0
+"146 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/eusart2.c
+[v i2_putch putch `(v  1 e 1 0 ]
+{
+[v i2putch@txData txData `uc  1 a 1 wreg ]
+[v i2putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v i2putch@txData txData `uc  1 a 1 1 ]
+"149
+} 0
+"132
+[v i2_EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v i2EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v i2EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v i2EUSART2_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isupper.c
+[v i2_isupper isupper `(i  1 e 2 0 ]
+{
+[v i2isupper@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.36/pic/sources/c99/common/isalpha.c
+[v i2_isalpha isalpha `(i  1 e 2 0 ]
+{
+[v i2isalpha@c c `i  1 p 2 0 ]
+"8
+} 0
+"149 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v i2_TCS3471_ClearInterrupt TCS3471_ClearInterrupt `(v  1 e 1 0 ]
+{
+"156
+} 0
+"22 /Users/amor-mac/Documents/3_1/project/all-in-one.X/RGB4x4Click.c
+[v i2_RGBLed_SetDiode RGBLed_SetDiode `(v  1 e 1 0 ]
+{
+[v i2RGBLed_SetDiode@ANum ANum `uc  1 a 1 wreg ]
+"23
+[v i2RGBLed_SetDiode@i i `uc  1 a 1 39 ]
+"22
+[v i2RGBLed_SetDiode@ANum ANum `uc  1 a 1 wreg ]
+[v i2RGBLed_SetDiode@AColor AColor `ul  1 p 4 28 ]
+[v i2RGBLed_SetDiode@AdiodeArray AdiodeArray `*.39ul  1 p 2 32 ]
+"24
+[v i2RGBLed_SetDiode@ANum ANum `uc  1 a 1 38 ]
+"31
+} 0
+"39
+[v i2_RGBLed_SetColor RGBLed_SetColor `(v  1 e 1 0 ]
+{
+"42
+[v i2RGBLed_SetColor@tempData tempData `ul  1 a 4 2 ]
+"39
+[v i2RGBLed_SetColor@AdiodeArray AdiodeArray `*.39ul  1 p 2 0 ]
+"187
+} 0
+"189
+[v i2_RGBLed_ResetDelay RGBLed_ResetDelay `(v  1 e 1 0 ]
+{
+"192
+} 0
+"33
+[v i2_RGBLed_InitDiode RGBLed_InitDiode `(v  1 e 1 0 ]
+{
+[v i2RGBLed_InitDiode@ARGBColor ARGBColor `ul  1 p 4 3 ]
+[v i2RGBLed_InitDiode@AdiodeArray AdiodeArray `*.39ul  1 p 2 7 ]
+"37
+} 0
+"15
+[v i2_reverse reverse `(uc  1 e 1 0 ]
+{
+[v i2reverse@b b `uc  1 a 1 wreg ]
+[v i2reverse@b b `uc  1 a 1 wreg ]
+[v i2reverse@b b `uc  1 a 1 2 ]
+"20
+} 0
+"51 /Users/amor-mac/Documents/3_1/project/all-in-one.X/main.c
+[v _combine_low_eight_bits combine_low_eight_bits `(ul  1 e 4 0 ]
+{
+"52
+[v combine_low_eight_bits@result result `ul  1 a 4 10 ]
+"51
+[v combine_low_eight_bits@val1 val1 `us  1 p 2 0 ]
+[v combine_low_eight_bits@val2 val2 `us  1 p 2 2 ]
+[v combine_low_eight_bits@val3 val3 `us  1 p 2 4 ]
+"59
+} 0
+"198 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v _TCS3471_RgbcValid TCS3471_RgbcValid `(a  1 e 1 0 ]
+{
+"206
+} 0
+"259
+[v i2_read8 read8 `(uc  1 e 1 0 ]
+{
+[v i2read8@reg reg `uc  1 a 1 wreg ]
+[v i2read8@reg reg `uc  1 a 1 wreg ]
+"261
+[v i2read8@reg reg `uc  1 a 1 27 ]
+"265
+} 0
+"217
+[v _TCS3471_ReadRData TCS3471_ReadRData `(us  1 e 2 0 ]
+{
+"224
+} 0
+"226
+[v _TCS3471_ReadGData TCS3471_ReadGData `(us  1 e 2 0 ]
+{
+"233
+} 0
+"208
+[v _TCS3471_ReadCData TCS3471_ReadCData `(us  1 e 2 0 ]
+{
+"215
+} 0
+"235
+[v _TCS3471_ReadBData TCS3471_ReadBData `(us  1 e 2 0 ]
+{
+"242
+} 0
+"267
+[v _read16 read16 `(us  1 e 2 0 ]
+{
+[v read16@reg reg `uc  1 a 1 wreg ]
+"272
+[v read16@ret ret `us  1 a 2 30 ]
+"267
+[v read16@reg reg `uc  1 a 1 wreg ]
+"269
+[v read16@reg reg `uc  1 a 1 29 ]
+"275
+} 0
+"5
+[v i2__i2cWrite _i2cWrite `(v  1 e 1 0 ]
+{
+[v i2__i2cWrite@address address `uc  1 a 1 wreg ]
+[v i2__i2cWrite@address address `uc  1 a 1 wreg ]
+[v i2__i2cWrite@data data `*.39v  1 p 2 22 ]
+[v i2__i2cWrite@len len `ui  1 p 2 24 ]
+[v i2__i2cWrite@address address `uc  1 a 1 26 ]
+"7
+} 0
+"71 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v i2_i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+{
+[v i2i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2i2c_writeNBytes@data data `*.39v  1 p 2 17 ]
+[v i2i2c_writeNBytes@len len `ui  1 p 2 19 ]
+[v i2i2c_writeNBytes@address address `uc  1 a 1 21 ]
+"78
+} 0
+"283 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v i2_I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v i2I2C1_SetAddressNackCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v i2I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 9 ]
+"286
+} 0
+"251
+[v i2_I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"8 /Users/amor-mac/Documents/3_1/project/all-in-one.X/TCS3471.c
+[v i2__i2cRead _i2cRead `(v  1 e 1 0 ]
+{
+[v i2__i2cRead@address address `uc  1 a 1 wreg ]
+[v i2__i2cRead@address address `uc  1 a 1 wreg ]
+[v i2__i2cRead@data data `*.39v  1 p 2 22 ]
+[v i2__i2cRead@len len `ui  1 p 2 24 ]
+[v i2__i2cRead@address address `uc  1 a 1 26 ]
+"10
+} 0
+"228 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v i2_i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+{
+[v i2i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2i2c_readNBytes@data data `*.39v  1 p 2 17 ]
+[v i2i2c_readNBytes@len len `ui  1 p 2 19 ]
+[v i2i2c_readNBytes@address address `uc  1 a 1 21 ]
+"234
+} 0
+"176 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v i2_I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v i2I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v i2I2C1_Open@returnValue returnValue `E355  1 a 1 1 ]
+"176
+[v i2I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v i2I2C1_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v i2_I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 i2_I2C1_MasterOpen ]
+{
+"555
+} 0
+"246
+[v i2_I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+{
+"249
+} 0
+"224
+[v i2_I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v i2I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v i2I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 16 ]
+"224
+[v i2I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v i2I2C1_MasterOperation@read read `a  1 a 1 15 ]
+"244
+} 0
+"312
+[v i2_I2C1_Poller I2C1_Poller `(v  1 s 1 i2_I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v i2_I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 i2_I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v i2_I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 i2_I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v i2_I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13076  1 s 1 i2_I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v i2_I2C1_DO_RESET I2C1_DO_RESET `(E13076  1 s 1 i2_I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v i2_I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13076  1 s 1 i2_I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v i2_I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13076  1 s 1 i2_I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v i2_I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13076  1 s 1 i2_I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v i2_I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13076  1 s 1 i2_I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v i2_I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v i2_I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v i2_I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13076  1 s 1 i2_I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v i2_I2C1_DO_RCEN I2C1_DO_RCEN `(E13076  1 s 1 i2_I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v i2_I2C1_DO_RX I2C1_DO_RX `(E13076  1 s 1 i2_I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v i2_I2C1_DO_TX I2C1_DO_TX `(E13076  1 s 1 i2_I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v i2_I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13076  1 s 1 i2_I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v i2_I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13076  1 s 1 i2_I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v i2_I2C1_DO_IDLE I2C1_DO_IDLE `(E13076  1 s 1 i2_I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v i2_I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13076  1 s 1 i2_I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v i2_I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 i2_I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v i2_I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 i2_I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v i2_I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 i2_I2C1_MasterSendTxData ]
+{
+[v i2I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v i2I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v i2I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v i2_I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 i2_I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v i2_I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 i2_I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v i2_I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 i2_I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v i2_I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 i2_I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v i2_I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+"528
+} 0
+"520
+[v i2_I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[v i2_rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler@i2c1_master_example$F179 ]
+{
+[v i2rdBlkRegCompleteHandler@i2c1_master_example$F179@ptr ptr `*.39v  1 p 2 11 ]
+"175
+} 0
+"156
+[v i2_wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler@i2c1_master_example$F162 ]
+{
+[v i2wr1RegCompleteHandler@i2c1_master_example$F162@ptr ptr `*.39v  1 p 2 11 ]
+"161
+} 0
+"149
+[v i2_rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler@i2c1_master_example$F156 ]
+{
+[v i2rd2RegCompleteHandler@i2c1_master_example$F156@ptr ptr `*.39v  1 p 2 11 ]
+"154
+} 0
+"142
+[v i2_rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler@i2c1_master_example$F145 ]
+{
+[v i2rd1RegCompleteHandler@i2c1_master_example$F145@ptr ptr `*.39v  1 p 2 11 ]
+"147
+} 0
+"185 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler ]
+{
+[v i2rdBlkRegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"190
+} 0
+"151
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler ]
+{
+[v i2wr2RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"156
+} 0
+"119
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler ]
+{
+[v i2rd2RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"124
+} 0
+"81
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler ]
+{
+[v i2rd1RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"86
+} 0
+"34
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler ]
+{
+[v i2wr1RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"39
+} 0
+"163 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/examples/i2c1_master_example.c
+[v i2_wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler@i2c1_master_example$F168 ]
+{
+[v i2wr2RegCompleteHandler@i2c1_master_example$F168@ptr ptr `*.39v  1 p 2 11 ]
+"168
+} 0
+"273 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/i2c1_master.c
+[v i2_I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v i2I2C1_SetDataCompleteCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v i2I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 9 ]
+"276
+} 0
+"298
+[v i2_I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 i2_I2C1_SetCallback ]
+{
+[v i2I2C1_SetCallback@idx idx `E13094  1 a 1 wreg ]
+[v i2I2C1_SetCallback@idx idx `E13094  1 a 1 wreg ]
+[v i2I2C1_SetCallback@cb cb `*.38(E360  1 p 3 0 ]
+[v i2I2C1_SetCallback@ptr ptr `*.39v  1 p 2 3 ]
+"300
+[v i2I2C1_SetCallback@idx idx `E13094  1 a 1 5 ]
+"310
+} 0
+"263
+[v i2_I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v i2I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v i2I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v i2_I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 i2_I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v i2_I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 i2_I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v i2_I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 i2_I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v i2_I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v i2I2C1_Close@returnValue returnValue `E355  1 a 1 0 ]
+"222
+} 0
+"635
+[v i2_I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 i2_I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v i2_I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 i2_I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v i2_I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 i2_I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"32 /Users/amor-mac/Documents/3_1/project/all-in-one.X/mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+{
+"38
+} 0
+"41
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+{
+"48
+} 0
+"54
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"57
+} 0
