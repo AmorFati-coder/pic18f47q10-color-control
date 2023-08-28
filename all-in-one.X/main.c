@@ -45,16 +45,30 @@
 #include "TCS3471.h"
 #include "RGB4x4Click.h"
 #include <xc.h>
+volatile bool colorAvailable = false;
 
+void TCS3471_Int()
+{
+	colorAvailable = true;
+}
 
+uint32_t combine_low_eight_bits_1(uint16_t val1, uint16_t val2, uint16_t val3) {
+    uint32_t result = 0;
+    result = val1 >> 8;
+    result = (result << 8) + (val2 >> 8);
+    printf("color is 0x%x", val1 >> 8);
+    printf("%x", val2 >> 8);
+    printf("%x\n\n", val3 >> 8);
+    result = (result << 8) + (val3 >> 8);
+    return result;
+}
 
-uint32_t combine_low_eight_bits(uint16_t val1, uint16_t val2, uint16_t val3) {
+uint32_t combine_low_eight_bits_2(uint16_t val1, uint16_t val2, uint16_t val3) {
     uint32_t result = 0;
 
     result |= (uint32_t)(val1 & 0xFF) << 16;
     result |= (uint32_t)(val2 & 0xFF) << 8;
     result |= (uint32_t)(val3 & 0xFF);
-
     return result;
 }
 
@@ -63,21 +77,7 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     // interrupt handler
     if(PIE0bits.INT0IE == 1 && PIR0bits.INT0IF == 1)
     {
-        if (TCS3471_RgbcValid())
-        {
-            TCS3471_ClearInterrupt();
-            uint16_t clearVal = TCS3471_ReadCData();
-            uint16_t redVal   = TCS3471_ReadRData();
-            uint16_t greenVal = TCS3471_ReadGData();
-            uint16_t blueVal  = TCS3471_ReadBData();
-            printf("Light is %x\n", clearVal);
-            printf("red is %x\n", redVal);
-            printf("green is %x\n", greenVal);
-            printf("blue is %x\n\n", blueVal);
-            uint32_t re = combine_low_eight_bits(redVal, greenVal, blueVal);
-            RGBLed_SetDiode(10, re , DiodeArray);
-
-        }
+        TCS3471_Int();
         INT0_ISR();
     }
     else
@@ -109,12 +109,9 @@ void main(void)
     //??????
     INTERRUPT_PeripheralInterruptEnable();
     _detected = false;
-    //?????
-    _i2cAddress = 0;
     
     if(TCS3471_Detect()){
         printf("TCS3471 Detect\n");
-        //TCS3471???
         TCS3471_Init();
     }else{
         printf("TCS3471 does not exist\n");
@@ -137,12 +134,43 @@ void main(void)
     {
         
         if(!_detected){
-            for(int z = 0; z<=16; z++){
+            for(int z = 1; z<=16; z++){
                 RGBLed_SetDiode(z, 0x111111 , DiodeArray);
                 __delay_ms(1000);
                 RGBLed_SetDiode(z, 0x0 , DiodeArray);
                 __delay_ms(1000); 
             }
+            
+        }
+        else{
+            if(colorAvailable){
+                colorAvailable = false;
+                if (TCS3471_RgbcValid())
+                {
+                    TCS3471_ClearInterrupt();
+                    uint16_t clearVal = TCS3471_ReadCData();
+                    uint16_t redVal   = TCS3471_ReadRData();
+                    uint16_t greenVal = TCS3471_ReadGData();
+                    uint16_t blueVal  = TCS3471_ReadBData();
+                    uint16_t clearValH = TCS3471_ReadCDataH();
+                    uint16_t redValH = TCS3471_ReadRDataH();
+                    uint16_t greenValH = TCS3471_ReadGDataH();
+                    uint16_t blueValH = TCS3471_ReadBDataH();
+                    printf("LightH is %04x ", clearValH);
+                    printf("%04x\n", clearVal);
+                    printf("redH is %04x ", redValH);
+                    printf("%04x\n", redVal);
+                    printf("greenH is %04x ", greenValH);
+                    printf("%04x\n", greenVal);
+                    printf("blueH is 0x%04x ", blueValH);
+                    printf("%04x\n\n", blueVal);
+
+                    uint32_t re = combine_low_eight_bits_1(redValH, greenValH, blueValH);
+                    RGBLed_SetDiode(1, re , DiodeArray);
+                }
+                
+            }
+            
             
         }
     }

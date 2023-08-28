@@ -10,31 +10,26 @@ void _i2cRead(uint8_t address,void* data,size_t len){
 }
 
 void TCS3471_Init(){
-    //??TCS3471??
+    __delay_ms(100);
     TCS3471_EnableInterrupt();
     printf("TCS3471 interrupt enable\n");
-    //??????2.4-614.4ms
+    //2.4-700
     TCS3471_SetIntegrationTime(700.0);
     printf("TCS3471 set integration time\n");
-    //???????2.4-7400ms
-    TCS3471_SetWaitTime(2000.0);
+    //7400
+    TCS3471_SetWaitTime(200);
     printf("TCS3471 set wait time\n");
-    //?????????????????
     TCS3471_SetGain(TCS3471_GAIN_1X);
     printf("TCS3471 set gain\n");
-    //clear????????????0-65535
-    TCS3471_InterruptHighThreshold(32768);
+    //65535
+    TCS3471_InterruptHighThreshold(33678);
     printf("TCS3471 set interrupt high threshold\n");
-    //??clear???????0-65535??????????
-    TCS3471_InterruptLowThreshold(32767);
+    TCS3471_InterruptLowThreshold(33677);
     printf("TCS3471 set interrupt low threshold\n");
-    //??clear??????????????????
     TCS3471_InterruptPersistence(2);
     printf("TCS3471 interrupt persistence\n");
-    //????
     TCS3471_ClearInterrupt();
     printf("TCS3471 clear interrupt\n");
-    //TCS3471????
     TCS3471_Enable();
     printf("TCS3471 enable\n");
 }
@@ -82,7 +77,7 @@ bool TCS3471_Enable()
         return false;
 }
 
-void TCS3471_disable()
+void TCS3471_Disable()
 {
     if (_detected)
     {
@@ -223,6 +218,7 @@ uint16_t TCS3471_ReadCData()
     return 0;
 }
 
+
 uint16_t TCS3471_ReadRData()
 {
     if (_detected)
@@ -246,6 +242,35 @@ uint16_t TCS3471_ReadBData()
     if (_detected)
     {
         return read16(TCS3471_BDATA_REG);
+    }
+    return 0;
+}
+
+uint16_t TCS3471_ReadCDataH(){
+    if (_detected)
+    {
+        return read16(TCS3471_CDATAH_REG);
+    }
+    return 0;
+}
+uint16_t TCS3471_ReadRDataH(){
+    if (_detected)
+    {
+        return read16(TCS3471_RDATAH_REG);
+    }
+    return 0;
+}
+uint16_t TCS3471_ReadGDataH(){
+    if (_detected)
+    {
+        return read16(TCS3471_GDATAH_REG);
+    }
+    return 0;
+}
+uint16_t TCS3471_ReadBDataH(){
+    if (_detected)
+    {
+        return read16(TCS3471_BDATAH_REG);
     }
     return 0;
 }
